@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dasimannan — YouTube Channel Manager for 다시 만난 사랑</title>
+<meta name="description" content="dasimannan is a private channel-management tool that uploads and schedules videos for the YouTube channel 다시 만난 사랑 (Love, Met Again) on behalf of its owner.">
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; color: #222; max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.65; }
+  h1 { font-size: 30px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 36px; }
+  .sub { color: #666; margin-top: 0; }
+  a { color: #0b57d0; }
+  footer { margin-top: 48px; border-top: 1px solid #ddd; padding-top: 16px; color: #666; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>dasimannan</h1>
+<p class="sub">Channel-management tool for the YouTube channel
+<a href="https://www.youtube.com/@dasimannansarang">다시 만난 사랑 (Love, Met Again)</a></p>
+
+<h2>What this application does</h2>
+<p>
+dasimannan is a private, single-purpose automation tool used by the owner of the
+YouTube channel <strong>다시 만난 사랑</strong> ("Love, Met Again"), a Korean-language
+channel that publishes original narrated love stories. The channel's videos are
+produced in advance, and dasimannan publishes them to the channel on a fixed
+schedule.
+</p>
+<p>Using the YouTube Data API v3 with the channel owner's authorization, dasimannan:</p>
+<ul>
+  <li>reads the channel's identity and basic statistics to confirm it is operating on the correct channel;</li>
+  <li>uploads finished video files to that channel;</li>
+  <li>sets each video's title, description, tags and custom thumbnail;</li>
+  <li>schedules videos to become public at chosen times (scheduled publishing);</li>
+  <li>verifies that an upload completed and is scheduled as intended.</li>
+</ul>
+<p>
+dasimannan is not a public product. It is not offered to other users, it operates
+only on the owner's own channel, and it does not access any other person's
+YouTube account or data.
+</p>
+
+<h2>Google API data</h2>
+<p>
+dasimannan requests two Google OAuth scopes:
+<code>https://www.googleapis.com/auth/youtube</code> and
+<code>https://www.googleapis.com/auth/youtube.upload</code>.
+How the data obtained through these scopes is used, stored and protected is
+described in the <a href="privacy.html">Privacy Policy</a>.
+</p>
+
+<h2>Contact</h2>
+<p>Questions about this application: <strong>alihusnan418@gmail.com</strong></p>
+
+<footer>
+  dasimannan &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a>
+</footer>
+
+</body>
+</html>
